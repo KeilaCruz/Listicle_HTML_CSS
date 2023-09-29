@@ -1,0 +1,124 @@
+h1 {
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: normal;
+    text-align: center;
+    max-width: 780px;
+}
+
+.title {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../imagenes/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border: 1px solid white;
+}
+
+.contenedor-perfil {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.text-perfil {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    margin-top: -10px;
+}
+
+.p-autor {
+    font-weight: bold;
+    margin-left: 655px;
+}
+
+.p-actualizacion {
+    font-style: italic;
+    margin-top: -10px;
+    margin-left: 590px;
+}
+
+.linea-perfil {
+    margin-top: -10px;
+    margin-bottom: 60px;
+    margin-left: 580px;
+    margin-right: 590px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.number {
+    position: absolute;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(0, 0, 0, 0.25);
+}
+
+.title-body {
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    margin-left: 40px;
+    margin-bottom: -2px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.parrafo-body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+}
+
+.parrafo-img {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.imagen-body {
+    margin-left: 40px;
+    margin-bottom: 120px;
+    width: 750px;
+    height: auto;
+}
+
+.sections {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+a {
+    margin-left: 40px;
+    font-weight: normal;
+    font-family: "Sourse Sans Pro", sans-serif;
+    font-size: 18px;
+    color: #42b4d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
